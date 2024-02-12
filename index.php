@@ -14,7 +14,7 @@
 
   <!-- Script -->
   <script src="src/js/jquery-3.7.1.min.js"></script>
-  <script defer src="src/bootstrap4/js/bootstrap.bundle.min.js"></script>
+  <script src="src/bootstrap4/js/bootstrap.bundle.min.js"></script>
   <script src="src/js/script.js"></script>
 
   <title>Dashboard</title>
@@ -38,8 +38,8 @@
       </ul>
 
       <ul class="sub-menu collapse" id="ajuda">
-        <li><a href="#"><i class="fa fa-angle-right"></i> Documentação</a></li>
-        <li><a href="#"><i class="fa fa-angle-right"></i> Suporte <small><i class="fa fa-external-link"></small></i></a></li>
+        <li><a href="#" id="documentacao"><i class="fa fa-angle-right"></i> Documentação</a></li>
+        <li><a href="#" id="suporte"><i class="fa fa-angle-right"></i> Suporte <small><i class="fa fa-external-link"></small></i></a></li>
       </ul>
 
     </div>

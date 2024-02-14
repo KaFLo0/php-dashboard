@@ -55,7 +55,7 @@
             <div class="form-group row">
               <label class="col-sm-9 col-form-label">Competência:</label>
               <div class="col-sm-3">
-                <select name="" id="" class="form-control-plaintext">
+                <select name="" id="competencia" class="form-control-plaintext">
                   <option value="">-- Selecione --</option>
                   <option value="2023-08">Agosto / 2023</option>
                   <option value="2023-09">Setembro / 2023</option>
@@ -74,7 +74,7 @@
           <div class="card">
             <div class="card-header">Número de vendas</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="numeroVendas" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
           <div class="card">
             <div class="card-header">Total de vendas</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="totalVendas" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
           <div class="card">
             <div class="card-header">Clientes ativos</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="clientesAtivos" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@
           <div class="card">
             <div class="card-header">Clientes inativos</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="clientesInativos" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@
           <div class="card">
             <div class="card-header">Total de reclamações</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="totalReclamacoes" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@
           <div class="card">
             <div class="card-header">Total de elogios</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="totalElogios" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@
           <div class="card">
             <div class="card-header">Total de sugestões</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="totalSugestoes" class="card-title">?</h5>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@
           <div class="card">
             <div class="card-header">Total de despesas</div>
             <div class="card-body">
-              <h5 class="card-title">?</h5>
+              <h5 id="totalDespesas" class="card-title">?</h5>
             </div>
           </div>
         </div>

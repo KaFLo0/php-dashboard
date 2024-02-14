@@ -141,9 +141,14 @@ $dashboard = new Dashboard();
 
 $conexao = new Conexao();
 
-// As datas estão hardcode por hora!
-$dashboard->__set('data_inicio', '2023-10-01');
-$dashboard->__set('data_fim', '2023-10-31');
+$competencia = explode('-', $_GET['competencia']);
+$ano = $competencia[0];
+$mes = $competencia[1];
+
+$dias_do_mes = cal_days_in_month(CAL_GREGORIAN, $mes, $ano);
+
+$dashboard->__set('data_inicio', $ano.'-'.$mes.'-01');
+$dashboard->__set('data_fim', $ano.'-'.$mes.'-'.$dias_do_mes);
 
 $bd = new Bd($conexao, $dashboard);
 
@@ -156,8 +161,6 @@ $dashboard->__set('total_sugestoes', $bd->getTotalSugestoes());
 $dashboard->__set('total_elogios', $bd->getTotalElogios());
 $dashboard->__set('total_despesas', $bd->getTotalDespesas());
 
-echo '<pre>';
-print_r($dashboard);
-echo '</pre>';
+echo json_encode($dashboard);
 
 ?>
